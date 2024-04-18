@@ -9,5 +9,3 @@ python RMTPP_dpp_main.py
 ```
 
 The corresponding experimental settings and results will display in the log file.
-
-The folder [hkstools] contains codes for more simulations.
