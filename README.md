@@ -7,7 +7,7 @@ To run the Python script and reproduce the result, use the following command:
 ```bash
 python RMTPP_dpp_main.py
 ```
-### Misc
+
 The corresponding experimental settings and results will display in the log file.
 
 The folder [hkstools] contains codes for more simulations.
