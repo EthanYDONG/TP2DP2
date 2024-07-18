@@ -58,22 +58,21 @@ TP2DP2/<br>
 To set up the environment for running the experiments, please follow the steps below:
 
 1. Clone the repository:
-    \```sh
-    git clone https://github.com/EthanYDONG/TP2DP2.git
-    cd TP2DP2
-    \```
+    `
+    git clone https://github.com/EthanYDONG/TP2DP2.git`
+    `cd TP2DP2`
 
 2. Install the required packages:
-    \```sh
+  `
     pip install -r requirements.txt
-    \```
+  `
 
 ## Usage
 
 To run the main experiments with RMTPP and DPP on the provided dataset, use the following command:
-\```sh
+`
 python RMTPP_dpp_main.py --dataset <dataset_name>
-\```
+`
 Replace `<dataset_name>` with the name of the dataset you wish to use.
 
 ## File Descriptions
