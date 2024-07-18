@@ -107,4 +107,4 @@ The results of the experiments will be stored in the `results/` directory. This 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
