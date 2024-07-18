@@ -29,7 +29,6 @@ TP2DP2/<br>
 ├── RMTPP_dpp.py              # RMTPP model with DPP prior implementation<br>
 ├── RMTPP_dpp_main.py         # Main script for running RMTPP with DPP experiments<br>
 ├── RMTPP_dpp_train.py        # Training script for RMTPP with DPP<br>
-├── __init__.py               # Package initialization<br>
 ├── cluster_loader.py         # Data loading and preprocessing for clustering<br>
 ├── data_K2.pkl               # Example data file<br>
 ├── metric.py                 # Evaluation metrics<br>
