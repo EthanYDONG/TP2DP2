@@ -14,7 +14,7 @@ This repository contains the source code for TP2DP2, a Bayesian mixture model of
 
 ## Repository Structure
 
-\```
+
 TP2DP2/<br>
 ├── hkstools/<br>
 │   └── hawkes_utils.py       # Utility functions for Hawkes process<br>
@@ -33,7 +33,7 @@ TP2DP2/<br>
 ├── data_K2.pkl               # Example data file<br>
 ├── metric.py                 # Evaluation metrics<br>
 └── rmtpp_embed.py            # Embedding utilities for RMTPP
-\```
+
 
 ## Setup
 
