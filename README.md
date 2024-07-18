@@ -16,22 +16,22 @@ This repository contains the source code for TP2DP2, a Bayesian mixture model of
 
 \```
 TP2DP2/
-├── hkstools/
-│   └── hawkes_utils.py       # Utility functions for Hawkes process
-├── pp_mix/
-│   ├── mixture_model.py      # Implementation of mixture models
-│   ├── dpp_prior.py          # Implementation of DPP prior
-│   └── utils.py              # Utility functions for point process mixture models
-├── HawkesModel.py            # Hawkes process model implementation
-├── README.md                 # This README file
-├── RMTPP.py                  # RMTPP model implementation
-├── RMTPP_dpp.py              # RMTPP model with DPP prior implementation
-├── RMTPP_dpp_main.py         # Main script for running RMTPP with DPP experiments
-├── RMTPP_dpp_train.py        # Training script for RMTPP with DPP
-├── __init__.py               # Package initialization
-├── cluster_loader.py         # Data loading and preprocessing for clustering
-├── data_K2.pkl               # Example data file
-├── metric.py                 # Evaluation metrics
+├── hkstools/<br>
+│   └── hawkes_utils.py       # Utility functions for Hawkes process<br>
+├── pp_mix/<br>
+│   ├── mixture_model.py      # Implementation of mixture models<br>
+│   ├── dpp_prior.py          # Implementation of DPP prior<br>
+│   └── utils.py              # Utility functions for point process mixture models<br>
+├── HawkesModel.py            # Hawkes process model implementation<br>
+├── README.md                 # This README file<br>
+├── RMTPP.py                  # RMTPP model implementation<br>
+├── RMTPP_dpp.py              # RMTPP model with DPP prior implementation<br>
+├── RMTPP_dpp_main.py         # Main script for running RMTPP with DPP experiments<br>
+├── RMTPP_dpp_train.py        # Training script for RMTPP with DPP<br>
+├── __init__.py               # Package initialization<br>
+├── cluster_loader.py         # Data loading and preprocessing for clustering<br>
+├── data_K2.pkl               # Example data file<br>
+├── metric.py                 # Evaluation metrics<br>
 └── rmtpp_embed.py            # Embedding utilities for RMTPP
 \```
 
