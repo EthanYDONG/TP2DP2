@@ -27,7 +27,6 @@ TP2DP2/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── RMTPP_dpp_main.py # Main script for running RMTPP with DPP experiments<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── RMTPP_dpp_train.py # Training script for RMTPP with DPP<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── cluster_loader.py # Data loading and preprocessing for clustering<br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── data_K2.pkl # Example data file<br>
 &nbsp;&nbsp;&nbsp;&nbsp;└── rmtpp_embed.py # Embedding utilities for RMTPP
 
 
@@ -75,10 +74,6 @@ Replace `<dataset_name>` with the name of the dataset you wish to use.
 - **cluster_loader.py**: Contains functions for loading and preprocessing data for clustering.
 - **metric.py**: Defines evaluation metrics for model performance.
 - **rmtpp_embed.py**: Provides embedding utilities for the neural network-based point process model.
-
-### Data
-
-- **data_K2.pkl**: An example dataset used for running experiments.
 
 ## Results
 
