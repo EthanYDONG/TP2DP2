@@ -16,6 +16,7 @@ This repository contains the source code for TP2DP2, a Bayesian mixture model of
 
 
 TP2DP2/<br>
+
 ├── hkstools/<br>
 │   └── hawkes_utils.py       # Utility functions for Hawkes process<br>
 ├── pp_mix/<br>
