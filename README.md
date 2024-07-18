@@ -1,6 +1,6 @@
 # TP2DP2: A Bayesian Mixture Model of Temporal Point Processes with Determinantal Point Process Prior
 
-This repository contains the source code for TP2DP2, a Bayesian mixture model of temporal point processes with a Determinantal Point Process (DPP) prior. The main script for running the RMTPP with DPP experiments is `RMTPP_dpp_main.py`.
+This repository contains the source code for TP2DP2, a Bayesian mixture model of temporal point processes with a Determinantal Point Process (DPP) prior. The main script for running theneural network-based point process with DPP experiments is `RMTPP_dpp_main.py`.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ markdown
 Copy code
 # TP2DP2: A Bayesian Mixture Model of Temporal Point Processes with Determinantal Point Process Prior
 
-This repository contains the source code for TP2DP2, a Bayesian mixture model of temporal point processes with a Determinantal Point Process (DPP) prior. The main script for running the RMTPP with DPP experiments is `RMTPP_dpp_main.py`.
+This repository contains the source code for TP2DP2, a Bayesian mixture model of temporal point processes with a Determinantal Point Process (DPP) prior. The main script for running theneural network-based point process with DPP prior experiments is `RMTPP_dpp_main.py`.
 
 ## Table of Contents
 
@@ -42,10 +42,10 @@ TP2DP2/<br>
 │ └── utils.py # Utility functions for point process mixture models<br>
 ├── HawkesModel.py # Hawkes process model implementation<br>
 ├── README.md # This README file<br>
-├── RMTPP.py # RMTPP model implementation<br>
-├── RMTPP_dpp.py # RMTPP model with DPP prior implementation<br>
-├── RMTPP_dpp_main.py # Main script for running RMTPP with DPP experiments<br>
-├── RMTPP_dpp_train.py # Training script for RMTPP with DPP<br>
+├── RMTPP.py #neural network-based point process model implementation<br>
+├── RMTPP_dpp.py #neural network-based point process model with DPP prior implementation<br>
+├── RMTPP_dpp_main.py # Main script for runningneural network-based point process with DPP experiments<br>
+├── RMTPP_dpp_train.py # Training script forneural network-based point process with DPP<br>
 ├── init.py # Package initialization<br>
 ├── cluster_loader.py # Data loading and preprocessing for clustering<br>
 ├── data_K2.pkl # Example data file<br>
@@ -68,7 +68,7 @@ To set up the environment for running the experiments, please follow the steps b
 
 ## Usage
 
-To run the main experiments with RMTPP and DPP on the provided dataset, use the following command:
+To run the main experiments withneural network-based point process and DPP on the provided dataset, use the following command:
 `
 python RMTPP_dpp_main.py --dataset <dataset_name>
 `
@@ -78,13 +78,13 @@ Replace `<dataset_name>` with the name of the dataset you wish to use.
 
 ### Main Scripts
 
-- **RMTPP_dpp_main.py**: The main script for running experiments with RMTPP and DPP. This script initializes the model, loads the data, and evaluates the performance.
-- **RMTPP_dpp_train.py**: This script handles the training of the RMTPP model with DPP.
+- **RMTPP_dpp_main.py**: The main script for running experiments withneural network-based point process and DPP. This script initializes the model, loads the data, and evaluates the performance.
+- **RMTPP_dpp_train.py**: This script handles the training of theneural network-based point process model with DPP.
 
 ### Models
 
 - **RMTPP.py**: Implementation of the Recurrent Marked Temporal Point Process (RMTPP) model.
-- **RMTPP_dpp.py**: Extension of the RMTPP model with a Determinantal Point Process (DPP) prior.
+- **RMTPP_dpp.py**: Extension of theneural network-based point process model with a Determinantal Point Process (DPP) prior.
 - **HawkesModel.py**: Implementation of the Hawkes process model.
 
 ### Utilities
@@ -95,7 +95,7 @@ Replace `<dataset_name>` with the name of the dataset you wish to use.
 - **pp_mix/utils.py**: Contains utility functions for point process mixture models.
 - **cluster_loader.py**: Contains functions for loading and preprocessing data for clustering.
 - **metric.py**: Defines evaluation metrics for model performance.
-- **rmtpp_embed.py**: Provides embedding utilities for the RMTPP model.
+- **rmtpp_embed.py**: Provides embedding utilities for theneural network-based point process model.
 
 ### Data
 
