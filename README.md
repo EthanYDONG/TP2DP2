@@ -15,18 +15,17 @@ This repository contains the source code for TP2DP2, a Bayesian mixture model of
 ## Repository Structure
 TP2DP2/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── hkstools/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   └── hawkes_utils.py # Utility functions for Hawkes process<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   └── hawkes_utils.py # Utility functions for Hawkes process<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── pp_mix/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   ├── mixture_model.py # Implementation of mixture models<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   ├── dpp_prior.py # Implementation of DPP prior<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   └── utils.py # Utility functions for point process mixture models<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ├── mixture_model.py # Implementation of mixture models<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ├── dpp_prior.py # Implementation of DPP prior<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   └── utils.py # Utility functions for point process mixture models<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── HawkesModel.py # Hawkes process model implementation<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── README.md # This README file<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── RMTPP.py # RMTPP model implementation<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── RMTPP_dpp.py # RMTPP model with DPP prior implementation<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── RMTPP_dpp_main.py # Main script for running RMTPP with DPP experiments<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── RMTPP_dpp_train.py # Training script for RMTPP with DPP<br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── __init__.py # Package initialization<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── cluster_loader.py # Data loading and preprocessing for clustering<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── data_K2.pkl # Example data file<br>
 &nbsp;&nbsp;&nbsp;&nbsp;└── rmtpp_embed.py # Embedding utilities for RMTPP
