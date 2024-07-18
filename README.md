@@ -9,7 +9,6 @@ This repository contains the source code for TP2DP2, a Bayesian mixture model of
 - [Usage](#usage)
 - [File Descriptions](#file-descriptions)
 - [Results](#results)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Repository Structure
@@ -105,3 +104,7 @@ Replace `<dataset_name>` with the name of the dataset you wish to use.
 ## Results
 
 The results of the experiments will be stored in the `results/` directory. This directory will contain logs, model checkpoints, and evaluation metrics.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
