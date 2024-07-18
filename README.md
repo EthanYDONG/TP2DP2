@@ -37,8 +37,7 @@ TP2DP2/<br>
 To set up the environment for running the experiments, please follow the steps below:
 
 1. Clone the repository:
-    `
-    git clone https://github.com/EthanYDONG/TP2DP2.git`
+    `git clone https://github.com/EthanYDONG/TP2DP2.git`
     `cd TP2DP2`
 
 2. Install the required packages:
