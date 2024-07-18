@@ -78,7 +78,7 @@ Replace `<dataset_name>` with the name of the dataset you wish to use.
 ### Data
 
 -  Dataset folder used for running experiments.
--  
+  
 ## Results
 
 The results of the experiments will be stored in the `results/` directory. This directory will contain logs, model checkpoints, and evaluation metrics.
