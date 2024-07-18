@@ -15,11 +15,11 @@ This repository contains the source code for TP2DP2, a Bayesian mixture model of
 ## Repository Structure
 TP2DP2/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── hkstools/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;│   └── hawkes_utils.py # Utility functions for Hawkes process<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   └── hawkes_utils.py # Utility functions for Hawkes process<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── pp_mix/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;│   ├── mixture_model.py # Implementation of mixture models<br>
-&nbsp;&nbsp;&nbsp;&nbsp;│   ├── dpp_prior.py # Implementation of DPP prior<br>
-&nbsp;&nbsp;&nbsp;&nbsp;│   └── utils.py # Utility functions for point process mixture models<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   ├── mixture_model.py # Implementation of mixture models<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   ├── dpp_prior.py # Implementation of DPP prior<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│   └── utils.py # Utility functions for point process mixture models<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── HawkesModel.py # Hawkes process model implementation<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── README.md # This README file<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── RMTPP.py # RMTPP model implementation<br>
