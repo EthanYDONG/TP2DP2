@@ -1,6 +1,6 @@
 # TP2DP2: A Bayesian Mixture Model of Temporal Point Processes with Determinantal Point Process Prior
 
-This repository contains the source code for TP2DP2, a Bayesian mixture model of temporal point processes with a Determinantal Point Process (DPP) prior. The main script for running the Bayesian mixture of point processes with DPP prior experiments is `RMTPP_dpp_main.py`.
+This repository contains the source code for TP2DP2, a Bayesian mixture model of temporal point processes with a Determinantal Point Process (DPP) prior. 
 
 ## Table of Contents
 
@@ -46,7 +46,7 @@ To set up the environment for running the experiments, please follow the steps b
 
 ## Usage
 
-To run main experiments with Bayesian mixture of point processes with DPP prior on the provided dataset, use the following command:
+The main script for running the Bayesian mixture of point processes with DPP prior experiments is `RMTPP_dpp_main.py`. To run main experiments with Bayesian mixture of point processes with DPP prior on the provided dataset, use the following command:
 `
 python RMTPP_dpp_main.py --dataset <dataset_name>
 `
